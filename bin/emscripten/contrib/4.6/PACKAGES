@@ -1,0 +1,103 @@
+Package: RSQLite
+Version: 3.53.3
+Depends: R (>= 3.1.0)
+Imports: bit64, blob (>= 1.2.0), DBI (>= 1.2.0), memoise, methods,
+        pkgconfig, rlang
+LinkingTo: cpp11 (>= 0.4.0)
+Suggests: callr, cli, DBItest (>= 1.8.0), decor, gert, gh, hms, httpuv,
+        knitr, magrittr, rmarkdown, rvest, testthat (>= 3.0.0), withr,
+        xml2
+License: LGPL (>= 2.1)
+MD5sum: 3bc113f313052390c4c79fbe490144bb
+Built: R 4.6.0; wasm32-unknown-emscripten; 2026-11-12 13:52:46 UTC;
+        unix
+Repository: CRAN
+File: RSQLite_3.53.3.tgz
+
+Package: gamlj
+Version: 2.9.5
+Imports: jmvcore (>= 0.9.5.2), emmeans (>= 1.2.0), car, lmerTest, lme4,
+        boot, glue, insight,parameters,rlang,sandwich, stringr, nnet,
+        MASS, ggplot2, effectsize, performance, ordinal, margins
+Suggests: rmarkdown, knitr
+License: GPL
+MD5sum: 6a262363cddb478dd81f6475dda36870
+Built: R 4.6.0; ; 2026-11-12 13:51:12 UTC; unix
+File: gamlj_2.9.5.tgz
+
+Package: jamovi2rmarkdown
+Version: 0.2.1
+Depends: R (>= 4.1.0)
+Imports: jsonlite, glue (>= 1.6.0), stringr (>= 1.5.0), rmarkdown (>=
+        2.20), fs, logger, zip
+Suggests: jmv, withr, TOSTER, MASS, jmvReadWrite, RProtoBuf, broom,
+        modelsummary, testthat (>= 3.0.0), knitr, shiny
+License: MIT + file LICENSE
+MD5sum: 905c4253a1147672b9ece35889a0da09
+Built: R 4.6.0; ; 2026-11-12 13:47:21 UTC; unix
+File: jamovi2rmarkdown_0.2.1.tgz
+
+Package: jasp2rmarkdown
+Version: 0.3.0
+Depends: R (>= 4.1.0)
+Imports: jsonlite, DBI, RSQLite, glue (>= 1.6.0), stringr (>= 1.5.0),
+        utils
+Suggests: weightr, rmarkdown (>= 2.20), broom, modelsummary, testthat
+        (>= 3.0.0), shiny, knitr
+License: MIT + file LICENSE
+MD5sum: 433dab7445cd3719f6f455a796680bee
+Built: R 4.6.0; ; 2026-11-12 13:47:39 UTC; unix
+File: jasp2rmarkdown_0.3.0.tgz
+
+Package: jsq
+Version: 1.2.2
+Imports: jmvcore (>= 0.9.6.4), R6, BayesFactor, plotrix, logspline,
+        BAS, cowplot, BMS, tseries
+License: GPL (>= 2)
+MD5sum: 789131751353c37d6fccb271426717cc
+Built: R 4.6.0; ; 2026-11-12 13:49:02 UTC; unix
+File: jsq_1.2.2.tgz
+
+Package: spss2rmarkdown
+Version: 0.3.0
+Depends: R (>= 4.1.0)
+Imports: haven (>= 2.5.0), dplyr (>= 1.1.0), glue (>= 1.6.0), stringr
+        (>= 1.5.0), jsonlite
+Suggests: rmarkdown (>= 2.20), jmv, withr, olsrr, ppcor, lubridate,
+        tidyr, ggplot2, janitor, psych, effectsize, afex, emmeans, car,
+        broom, modelsummary, kableExtra, testthat (>= 3.0.0), vctrs,
+        shiny, knitr
+License: MIT + file LICENSE
+MD5sum: fcc43cba4557ef9dcac0ce2cec3b1f5c
+Built: R 4.6.0; ; 2026-11-12 13:46:31 UTC; unix
+File: spss2rmarkdown_0.3.0.tgz
+
+Package: stata2rmarkdown
+Version: 0.2.1
+Depends: R (>= 4.1.0)
+Imports: haven (>= 2.5.0), dplyr (>= 1.1.0), glue (>= 1.6.0), stringr
+        (>= 1.5.0), rmarkdown (>= 2.20)
+Suggests: fixest (>= 0.11.0), modelsummary (>= 1.0.0), marginaleffects,
+        tidyr, ggplot2, janitor, sandwich, lmtest, car, AER, MASS,
+        testthat (>= 3.0.0), shiny, knitr
+License: MIT + file LICENSE
+MD5sum: 6f7bb6ec59eba6062b6afcb8626940c1
+Built: R 4.6.0; ; 2026-11-12 13:47:07 UTC; unix
+File: stata2rmarkdown_0.2.1.tgz
+
+Package: surveymv
+Version: 0.7.1
+Imports: jmvcore (>= 0.8.5), R6, ggplot2, tibble, tidyr, scales,
+        forcats, stringr
+Suggests: testthat
+License: GPL (>= 2)
+MD5sum: 5a3a3647ed6491f65af18647f62d7eca
+Built: R 4.6.0; ; 2026-11-12 13:49:47 UTC; unix
+File: surveymv_0.7.1.tgz
+
+Package: websocket
+Version: 1.2.0.9000
+License: MIT + file LICENSE
+MD5sum: c1f56a155be69a83564d43948d354f81
+Built: R 4.6.0; ; 2026-11-12 13:51:19 UTC; unix
+File: websocket_1.2.0.9000.tgz
